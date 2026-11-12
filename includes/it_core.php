@@ -181,7 +181,7 @@ function it_log(PDO $conn, string $action, ?string $entity = null, ?int $recordI
 
 function it_global_defaults(): array {
     return [
-        'brand' => 'IT Portal', 'tagline' => 'AR Properties · IT', 'primary' => '#f97316',
+        'brand' => 'IT Portal', 'tagline' => 'Your Company · IT', 'primary' => '#f97316',
         'theme' => 'steel', 'animations' => true, 'density' => 'comfortable', 'font' => 'normal',
         'idle_minutes' => 30, 'reveal_seconds' => 30, 'vault_unlock_minutes' => 5, 'alert_days' => 30,
     ];

@@ -15,6 +15,24 @@ An IT portal for a small company's IT team. It tracks devices, software licences
 - **Customisable:** sections and fields can be configured from the UI
 - **Offline-ready PWA:** web manifest, service worker and offline page
 
+## Screenshots
+
+> Demo data only: made-up devices, people, IPs and serial numbers.
+
+| Dashboard | IT inventory |
+|---|---|
+| ![Dashboard](screenshots/02-dashboard.png) | ![IT inventory](screenshots/03-devices.png) |
+| **Device record** | **Licences & renewals** |
+| ![Device record](screenshots/09-device-record.png) | ![Licences](screenshots/04-licenses.png) |
+| **IT requests** | **CCTV & cameras** |
+| ![IT requests](screenshots/05-service-desk.png) | ![CCTV](screenshots/06-cctv.png) |
+| **Maintenance schedule** | **Password vault (locked)** |
+| ![Maintenance](screenshots/07-maintenance.png) | ![Vault](screenshots/08-vault.png) |
+| **Activity log** | **Sign in** |
+| ![Activity log](screenshots/10-activity.png) | ![Sign in](screenshots/01-login.png) |
+
+<p align="center"><img src="screenshots/11-mobile.png" width="300" alt="IT Portal on a phone"><br><em>Installable PWA with a mobile layout</em></p>
+
 ## Tech
 
 PHP 8 (PDO), MySQL, JavaScript, HTML5 and CSS3, OpenSSL (AES-256-GCM), and a service worker.

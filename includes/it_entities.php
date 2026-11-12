@@ -245,7 +245,7 @@ function it_entities(): array {
             'title_field' => 'address', 'status_field' => 'status', 'category_field' => 'kind',
             'fields' => [
                 ['key' => 'address', 'label' => 'Email address', 'type' => 'email', 'required' => true, 'list' => true, 'unique' => true, 'also_unique_in' => ['staffmail' => 'address'], 'placeholder' => 'e.g. accounts@example.com'],
-                ['key' => 'display_name', 'label' => 'Display name', 'type' => 'text', 'list' => true, 'placeholder' => 'e.g. AR Properties Accounts'],
+                ['key' => 'display_name', 'label' => 'Display name', 'type' => 'text', 'list' => true, 'placeholder' => 'e.g. Demo Company Accounts'],
                 ['key' => 'company', 'label' => 'Company', 'type' => 'company', 'required' => true, 'list' => true],
                 ['key' => 'kind', 'label' => 'Type', 'type' => 'select', 'required' => true, 'list' => true, 'default' => 'Shared mailbox',
                  'options' => ['Shared mailbox', 'Department inbox', 'Distribution group', 'Alias / forwarder', 'No-reply / system']],
